@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table td,
+.table th {
+    padding: 5px 10px;
+    border: 1px solid;
+}

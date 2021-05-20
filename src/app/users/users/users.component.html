@@ -1,0 +1,9 @@
+<ul>
+    <li *ngFor="let user of usersService.users">
+        {{ user.firstName }} {{ user.lastName }}
+    </li>
+</ul>
+
+<hr>
+<p>Add User Component</p>
+<app-add-user></app-add-user>
