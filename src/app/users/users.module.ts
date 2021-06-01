@@ -6,15 +6,17 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { UsersComponent } from './users/users.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
     declarations: [
         UsersComponent,
-        AddUserComponent
+        AddUserComponent,
     ],
     imports: [
         CommonModule,
         HttpClientModule,
+        ReactiveFormsModule,
         RouterModule.forChild([
             {
                 path: '',
