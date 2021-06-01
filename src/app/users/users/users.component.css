@@ -1,0 +1,15 @@
+.button {
+    padding: 5px 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}

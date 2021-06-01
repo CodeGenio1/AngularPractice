@@ -1,3 +1,5 @@
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { BrowserModule } from '@angular/platform-browser';
 import { DataService } from 'src/libs/data.service';
 import { AddUserComponent } from './add-user/add-user.component';
 import { RouterModule } from '@angular/router';
@@ -12,6 +14,7 @@ import { UsersComponent } from './users/users.component';
     ],
     imports: [
         CommonModule,
+        HttpClientModule,
         RouterModule.forChild([
             {
                 path: '',
